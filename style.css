@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e0f55, #d847a7);
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+/* Subheading */
+.container p {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Text Area */
+textarea {
+  width: 90%;
+  max-width: 500px;
+  height: 170px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  box-sizing: border-box;
+  
+  background-color: transparent; /* removes white background */
+  color: white; /* text color inside the box */
+}
+
+
+/* Gradient Button */
+button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #ff416c, #ff9966);
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff5e7e, #ffb88c);
+}
+
+/* End of CSS Code */
